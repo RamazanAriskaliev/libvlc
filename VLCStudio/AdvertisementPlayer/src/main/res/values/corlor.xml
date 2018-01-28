@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <color name="white">#ffffffff</color>
+
+    <color name="white_tran">#e5ffffff</color>
+
+    <color name="grey">#ff666666</color>
+
+    <color name="cantbtngrey">#666666</color>
+
+    <color name="TabStripColor">#2A2598</color>
+
+    <color name="beautifulblue">#00d6e6</color>
+
+    <color name="background">#f3f3f3</color>
+
+    <color name="beautifulgrey">#949494</color>
+
+    <color name="personallist_bg">#e7e7e7</color>
+
+    <color name="beautifullowgrey">#cccccc</color>
+
+    <color name="black">#000000</color>
+
+    <color name="beautifuldeepblue">#00a6c6</color>
+
+    <color name="buttonbgblue">#00b6c6</color>
+
+    <color name="overgrey">#c5c5c5</color>
+
+    <color name="blue">#ff0000ff</color>
+
+    <color name="green">#ff00ff00</color>
+
+    <color name="red">#ffff0000</color>
+
+    <color name="higtlight">#ff0078f0</color>
+
+    <color name="durationtext">#ff7d7d7d</color>
+
+    <color name="yellow">#ffffcc00</color>
+
+    <color name="title">#ff274462</color>
+
+    <color name="gray">#808080ff</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="mediacontroller_bg_pressed">#ff53c1bd</color>
+
+    <color name="mediacontroller_bg">#99000000</color>
+
+    <color name="background_dark">#f4f4f4</color>
+
+    <color name="grey_text">#676767</color>
+
+    <color name="homemid_gundong">#2c3034</color>
+
+    <color name="getvertifycode">#00dbaa</color>
+
+    <color name="red_add1">#FF0000</color>
+
+    <color name="blue_zan">#005edc</color>
+
+    <color name="text_black_blue">#2c3034</color>
+
+    <color name="app_background">#eeeeee</color>
+
+    <color name="app_background_home">#ffffff</color>
+
+    <color name="app_background_discover_item">#f0f0f0</color>
+
+    <color name="app_background_tran">#e5e6e6e6</color>
+
+    <color name="blue_button_bg">#ff6600</color>
+
+    <color name="green_button_bg">#00dbaa</color>
+
+    <color name="gray_button_bg">#a7a7a7</color>
+
+    <color name="grey_text_bg">#6e6e6e</color>
+
+    <color name="blue_background">#0179fb</color>
+
+    <color name="timeall">#b8b8b8</color>
+
+    <color name="progress_bg">#8c8d8d</color>
+
+    <color name="progress">#06b8d8</color>
+
+    <color name="progress_second">#6d6d6d</color>
+
+    <color name="message_textcolor">#2c3034</color>
+
+    <color name="message_datecolor">#646e78</color>
+
+    <color name="exit_red">#ff0000</color>
+
+    <!-- A light Holo shade of blue -->
+
+
+    <color name="holo_blue_light">#ff33b5e5</color>
+
+    <!-- A light Holo shade of green -->
+
+
+    <color name="holo_green_light">#ff99cc00</color>
+
+    <!-- A light Holo shade of red -->
+
+
+    <color name="holo_red_light">#ffff4444</color>
+
+    <!-- A dark Holo shade of blue -->
+
+
+    <color name="holo_blue_dark">#ff0099cc</color>
+
+    <!-- A dark Holo shade of green -->
+
+
+    <color name="holo_green_dark">#ff669900</color>
+
+    <!-- A dark Holo shade of red -->
+
+
+    <color name="holo_red_dark">#ffcc0000</color>
+
+    <!-- A Holo shade of purple -->
+
+
+    <color name="holo_purple">#ffaa66cc</color>
+
+    <!-- A light Holo shade of orange -->
+
+
+    <color name="holo_orange_light">#ffffbb33</color>
+
+    <!-- A dark Holo shade of orange -->
+
+
+    <color name="holo_orange_dark">#ffff8800</color>
+
+    <!-- A really bright Holo shade of blue -->
+
+
+    <color name="holo_blue_bright">#ff00ddff</color>
+
+</resources>

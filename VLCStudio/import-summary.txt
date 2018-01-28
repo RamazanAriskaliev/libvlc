@@ -1,0 +1,62 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => munionH5PluginDemo\src\main\AndroidManifest.xml
+* assets\ => munionH5PluginDemo\src\main\assets\
+* libs\AFPSDK-1.0.jar => munionH5PluginDemo\libs\AFPSDK-1.0.jar
+* libs\armeabi-v7a\libsecuritysdk-3.0.39.so => munionH5PluginDemo\src\main\jniLibs\armeabi-v7a\libsecuritysdk-3.0.39.so
+* libs\armeabi\libsecuritysdk-3.0.39.so => munionH5PluginDemo\src\main\jniLibs\armeabi\libsecuritysdk-3.0.39.so
+* libs\Baidu_MobAds_SDK_v4.4.jar => munionH5PluginDemo\libs\Baidu_MobAds_SDK_v4.4.jar
+* libs\GDTUnionSDK.4.8.517.min.jar => munionH5PluginDemo\libs\GDTUnionSDK.4.8.517.min.jar
+* libs\google-play-services-v8.4.87.jar => munionH5PluginDemo\libs\google-play-services-v8.4.87.jar
+* libs\InMobi-5.2.1.jar => munionH5PluginDemo\libs\InMobi-5.2.1.jar
+* libs\SmartMad-SDK-Android_v3.0.4.jar => munionH5PluginDemo\libs\SmartMad-SDK-Android_v3.0.4.jar
+* libs\x86\libsecuritysdk-3.0.39.so => munionH5PluginDemo\src\main\jniLibs\x86\libsecuritysdk-3.0.39.so
+* res\ => munionH5PluginDemo\src\main\res\
+* src\ => munionH5PluginDemo\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

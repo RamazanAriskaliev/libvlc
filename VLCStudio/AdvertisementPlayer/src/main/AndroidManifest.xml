@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.com.vlcstudio" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+
+    <application
+        android:name=".MMUDemoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".AdvertisementPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name=".AudioPlayerActivity"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="com.alimama.mobile.sdk.shell.MMUDetail"
+            android:configChanges="keyboard|orientation"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alimama.mobile.sdk.shell.MMUBrowserWebView"
+            android:configChanges="keyboard|orientation"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.alimama.mobile.sdk.shell.DownloadingService" >
+            <intent-filter>
+                <action android:name="com.alimama.mobile.sdk.download.action" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

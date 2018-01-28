@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdvertisementPlayer/AdvertisementPlayer.iml" filepath="$PROJECT_DIR$/AdvertisementPlayer/AdvertisementPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VLCStudio.iml" filepath="$PROJECT_DIR$/VLCStudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vlc-android-sdk-master/vlc-android-sdk-master.iml" filepath="$PROJECT_DIR$/vlc-android-sdk-master/vlc-android-sdk-master.iml" />
+    </modules>
+  </component>
+</project>

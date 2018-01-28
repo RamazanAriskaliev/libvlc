@@ -1,0 +1,93 @@
+ DATE:2016-04-23
+ MODULE:MainPlayer
+ FILEVERSION:1.1
+ AUTHOR:李胜男
+ 
+ 功能介绍：这个类是生成视频播放器的类，是播放器入口类，外界通过此类将数据传入，此类再将外界传入的播放器大小位置及资源参数、vlc播放器实例
+ 传入VideoViewlayout
+ 
+
+
+ 
+ DATE:2016-04-23
+ MODULE:AdvertisementPlayerView
+ FILEVERSION:1.1
+ AUTHOR:李胜男
+ 
+ 功能介绍：这个类获取到广告播放器实例，实现功能有播放/暂停，快进/快退，声音调节，全屏，小屏，锁屏，显示系统时间，根据重力感应调整屏幕大小，
+ 根据是否是会员暂停时是否播放广告，播放完成后显示重播
+ 
+ 
+ 
+ 
+ DATE:2016-04-23
+ MODULE:VideoView
+ FILEVERSION:1.1
+ AUTHOR:李胜男
+
+ 功能介绍：此类用来显示视频的播放的控件，继承自SurfaceView
+ 
+ 
+ 
+ DATE:2016-04-23
+ MODULE:VerticalSeek
+ FILEVERSION:1.1
+ AUTHOR:李胜男
+ 
+ 功能介绍：此类是自定义的竖直的进度条seekbar，用来显示控制声音调节。
+ 
+ 
+ DATE:2016-04-23
+ MODULE:ScreenObserver
+ FILEVERSION:1.1
+ AUTHOR:李胜男
+ 
+ 功能介绍：此类是广播注册接收类，用来接收锁屏/解锁屏的广播事件
+ 
+ 
+
+
+ DATE:2016-04-23
+ MODULE:DateUtil
+ FILEVERSION:1.1
+ AUTHOR:李胜男
+ 
+ 功能介绍：此类是常量类，用来统一定义常量值
+
+
+
+
+ DATE:2016-04-23
+ MODULE:LogUtil
+ FILEVERSION:1.1
+ AUTHOR:李胜男
+ 
+ 功能介绍：此类是Log工具类，用来统一管理log打印方式及是否打印
+
+
+
+
+ DATE:2016-04-23
+ MODULE:Constants
+ FILEVERSION:1.1
+ AUTHOR:李胜男
+ 
+ 功能介绍：此类是常量类，用来统一定义常量值
+ 
+ 
+ DATE:2016-04-23
+ MODULE:MainActivity
+ FILEVERSION:1.1.1
+ AUTHOR:李胜男
+
+ 功能介绍：加了一个界面，作为测试代码，包括三个TextView，在测试人员输入相应的数据，可以直接进入播放器，播放相应视频和选择是否是会员的模式。
+ 
+ 
+ DATE:2016-04-23
+ MODULE:AdvertisementPlayerActivity
+ FILEVERSION:1.1.1
+ AUTHOR:李胜男
+ 
+ 功能介绍：接到MainActivity传过来的数据，定义播放器布局大小位置数组，并将播放器所需数据资源实例等一并传入MainPlayer
+ 
+ 
